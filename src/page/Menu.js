@@ -8,7 +8,6 @@ const Menu = ({ keycloak, keycloakInitialized }) => {
       <li>
         <a href="/">Home Page </a>
       </li>
-
       {AuthorizedFunction(["RealmAdmin"]) && (
         <li>
           <a href="/protected">Protected Page</a>
