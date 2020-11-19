@@ -1,6 +1,5 @@
 import React from "react";
 import { useKeycloak } from "@react-keycloak/web";
-// import AuthrizedElement from "../components/AuthrizedElement";
 
 const ProtectedPage = () => {
   const { keycloak, initialized } = useKeycloak();
