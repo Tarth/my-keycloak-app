@@ -4,5 +4,4 @@ const keycloakConfig = {
   realm: "example",
   clientId: "exampleclient",
 };
-const keycloak = new Keycloak(keycloakConfig);
-export default keycloak;
+export const keycloak = new Keycloak(keycloakConfig);

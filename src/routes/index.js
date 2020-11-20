@@ -11,6 +11,7 @@ export const AppRouter = () => {
   if (!initialized) {
     return <h3>Loading ... !!!</h3>;
   }
+
   return (
     <>
       <Menu />

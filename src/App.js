@@ -1,6 +1,6 @@
 import "./App.css";
 import { ReactKeycloakProvider } from "@react-keycloak/web";
-import keycloak from "./keycloak";
+import { keycloak } from "./keycloak";
 import { AppRouter } from "./routes";
 
 const App = () => {
