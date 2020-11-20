@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HomePage from "../page/HomePage";
 import { PrivateRoute } from "../utilities/PrivateRoute";
 import ProtectedPage from "../page/ProtectedPage";
-import Menu from "../page/Menu";
+import { Menu } from "../page/Menu";
 
 export const AppRouter = () => {
   const { keycloak, initialized } = useKeycloak();

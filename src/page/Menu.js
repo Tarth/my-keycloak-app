@@ -1,8 +1,9 @@
-import { withKeycloak } from "@react-keycloak/web";
+import { useKeycloak } from "@react-keycloak/web";
 import React from "react";
 import AuthorizedFunction from "../utilities/AuthorizedFunction";
 
-const Menu = ({ keycloak, keycloakInitialized }) => {
+export const Menu = () => {
+  const { keycloak } = useKeycloak();
   return (
     <ul>
       <li>
@@ -32,5 +33,3 @@ const Menu = ({ keycloak, keycloakInitialized }) => {
     </ul>
   );
 };
-
-export default withKeycloak(Menu);
